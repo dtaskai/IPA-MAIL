@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AM6JEK-SMTP-IPA-HF:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AM6JEK_SMTP_IPA_HF_jar</output-path>
+    <root id="archive" name="AM6JEK-SMTP-IPA-HF.jar">
+      <element id="module-output" name="AM6JEK-SMTP-IPA-HF" />
+    </root>
+  </artifact>
+</component>
