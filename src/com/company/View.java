@@ -14,11 +14,14 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.UnknownHostException;
 
+import static javax.swing.JOptionPane.showMessageDialog;
+
 public class View {
     private JFrame jFrame;
     private JPanel jPanel;
     private JButton jButtonSend;
     private JButton jButtonClose;
+    private JButton jButtonLog;
     private JLabel jLabelFrom;
     private JLabel jLabelTo;
     private JLabel jLabelContent;
@@ -28,6 +31,7 @@ public class View {
     private JTextField jTextFieldSubject;
     private JTextArea jTextAreaContent;
     private JFileChooser jFileChooser;
+    private Logger log;
 
     private SmtpImplementation SMTP;
 
@@ -112,7 +116,9 @@ public class View {
                 SMTP.setSubject(jTextFieldSubject.getText());
                 SMTP.setContent(jTextAreaContent.getText());
                 try {
-                    SMTP.send();
+                    if(SMTP.send()==1){
+                        showMessageDialog(null, "Üzenet elküldve!");
+                    }else showMessageDialog(null, "Hiba az üzenet elküldésekor!");
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -127,6 +133,17 @@ public class View {
             @Override
             public void mouseClicked(MouseEvent e) {
                 System.exit(1);
+            }
+        });
+
+        jButtonLog = new JButton("Log");
+        jButtonLog.setBounds(93,250,80,20);
+        jPanel.add(jButtonLog);
+
+        jButtonLog.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                SMTP.getLog().showLog(false);
             }
         });
     }
