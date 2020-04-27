@@ -8,12 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3ae1d-ceee-40f8-9494-b39d8b0166d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/SmtpImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/SmtpImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AM6JEK-SMTP-IPA-HF/com/company/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SmtpImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SmtpImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +80,32 @@
       <workItem from="1586507157694" duration="2252000" />
       <workItem from="1586700994712" duration="2405000" />
       <workItem from="1587979929547" duration="6000" />
-      <workItem from="1588010215424" duration="1425000" />
+      <workItem from="1588010215424" duration="1666000" />
     </task>
+    <task id="LOCAL-00001" summary="Logger feature added">
+      <created>1588011716750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588011716750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Logger class fixed">
+      <created>1588011761861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588011761861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Logger feature added" />
+    <MESSAGE value="Logger class fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger class fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1588010866706">
@@ -106,10 +120,10 @@
       <screen x="1920" y="0" width="1366" height="728" />
     </state>
     <state x="2451" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1585934630461" />
-    <state x="367" y="7" key="CommitChangelistDialog2" timestamp="1588011715568">
+    <state x="367" y="7" key="CommitChangelistDialog2" timestamp="1588011962057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011715568" />
+    <state x="367" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011962057" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1588011660328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -155,19 +169,19 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1586001526150" />
     <state x="2141" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1586081534736" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588011720201">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588011763619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011720201" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011763619" />
     <state x="426" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1588010216274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="426" y="213" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588010216274" />
     <state x="2299" y="188" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1586507158311" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588011743559">
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588011956051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011743559" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588011956051" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1588010428347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
