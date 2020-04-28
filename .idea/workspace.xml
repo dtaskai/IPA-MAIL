@@ -84,7 +84,7 @@
       <workItem from="1586700994712" duration="2405000" />
       <workItem from="1587979929547" duration="6000" />
       <workItem from="1588010215424" duration="1842000" />
-      <workItem from="1588065594302" duration="2434000" />
+      <workItem from="1588065594302" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Logger feature added">
       <created>1588011716750</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588012014723</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Logger content visually fixed for better demonstrational purposes.">
+      <created>1588068288692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588068288692</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +124,8 @@
     <MESSAGE value="Logger feature added" />
     <MESSAGE value="Logger class fixed" />
     <MESSAGE value="Rebuild with logger class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuild with logger class" />
+    <MESSAGE value="Logger content visually fixed for better demonstrational purposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger content visually fixed for better demonstrational purposes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1588010866706">
@@ -132,10 +140,10 @@
       <screen x="1920" y="0" width="1366" height="728" />
     </state>
     <state x="2451" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1585934630461" />
-    <state x="367" y="7" key="CommitChangelistDialog2" timestamp="1588012013017">
+    <state x="367" y="7" key="CommitChangelistDialog2" timestamp="1588068285991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588012013017" />
+    <state x="367" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588068285991" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1588068166341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -181,10 +189,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1586001526150" />
     <state x="2141" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1586081534736" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588012018477">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588068299062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588012018477" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1588068299062" />
     <state x="426" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1588065630629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
