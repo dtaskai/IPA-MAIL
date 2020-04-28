@@ -57,8 +57,6 @@ public class View {
         jPanel.setLayout(null);
     }
 
-
-
     private void showPanel(boolean bool){
         jFrame.setVisible(bool);
     }

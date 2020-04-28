@@ -7,11 +7,14 @@
 package com.company;
 
 import javax.swing.*;
+import java.net.*;
+import javax.swing.text.DefaultCaret;
 
 public class Logger {
     private JFrame jFrame;
     private JPanel jPanel;
     private JTextArea jTextAreaLog;
+
 
     public Logger(){
         setElements();
@@ -21,8 +24,7 @@ public class Logger {
         jFrame = new JFrame();
         jPanel = new JPanel();
         jTextAreaLog = new JTextArea();
-        jFrame.setSize(320,250);
-        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setSize(535,300);
         jFrame.setTitle("Mail Log");
         jFrame.add(jPanel);
         jFrame.setResizable(false);
@@ -30,6 +32,7 @@ public class Logger {
         jPanel.setLayout(null);
         jTextAreaLog.setSize(320,250);
         jFrame.add(jTextAreaLog);
+
     }
 
     public void showLog(boolean var){

@@ -69,6 +69,8 @@ public class SmtpImplementation {
             return -1;
         }
 
+        log.clearLog();
+
         inputStream = socket.getInputStream();
         outputStream = socket.getOutputStream();
         bufferedReaderIn = new BufferedReader(new InputStreamReader(inputStream));
@@ -76,37 +78,48 @@ public class SmtpImplementation {
 
         String initialMsg = bufferedReaderIn.readLine();
         System.out.println(initialMsg);
-        log.addText(initialMsg+"\n");
+        log.addText("S: "+initialMsg+"\n");
         System.out.println("HELO "+localHost.getHostName());
-        log.addText("HELO "+localHost.getHostName()+"\n");
+        log.addText("C: HELO "+localHost.getHostName()+"\n");
         printWriterOut.println("HELO "+localHost.getHostName());
         String welcomeMsg = bufferedReaderIn.readLine();
         System.out.println(welcomeMsg);
-        log.addText(welcomeMsg+"\n");
+        log.addText("S: "+welcomeMsg+"\n");
         System.out.println("MAIL From:<"+from+">");
-        log.addText("MAIL From:<"+from+">"+"\n");
+        log.addText("C: MAIL From:<"+from+">"+"\n");
         printWriterOut.println("MAIL From:<"+from+">");
         String senderMsg = bufferedReaderIn.readLine();
         System.out.println(senderMsg);
-        log.addText(senderMsg+"\n");
+        log.addText("S: "+senderMsg+"\n");
         System.out.println("RCPT TO:<"+to+">");
-        log.addText("RCPT TO:<"+to+">"+"\n");
+        log.addText("C: RCPT TO:<"+to+">"+"\n");
         printWriterOut.println("RCPT TO:<"+to+">");
         String recipientMsg = bufferedReaderIn.readLine();
         System.out.println(recipientMsg);
-        log.addText(recipientMsg+"\n");
+        log.addText("S: "+recipientMsg+"\n");
         System.out.println("DATA");
-        log.addText("DATA"+"\n");
+        log.addText("C: DATA"+"\n");
         printWriterOut.println("DATA");
-        printWriterOut.println("Subject: "+subject+"\r\n");
-        printWriterOut.println(content);
-        printWriterOut.println(".");
         String acceptedMsg = bufferedReaderIn.readLine();
         System.out.println(acceptedMsg);
-        log.addText(acceptedMsg+"\n");
+        log.addText("S: "+acceptedMsg+"\n");
+        printWriterOut.println("Subject: "+subject+"\n");
+        printWriterOut.println(content);
+        log.addText("C: Subject: "+subject+"\n");
+        log.addText("C: "+content+"\n");
+        System.out.println(".");
+        log.addText("C: ."+"\n");
+        printWriterOut.println(".");
+        String deliveryMsg = bufferedReaderIn.readLine();
+        System.out.println(deliveryMsg);
+        log.addText("S: "+deliveryMsg+"\n");
         System.out.println("QUIT");
-        log.addText("QUIT"+"\n");
+        log.addText("C: QUIT"+"\n");
         printWriterOut.println("QUIT");
+        String byeMsg = bufferedReaderIn.readLine();
+        System.out.println(byeMsg);
+        log.addText("S: "+byeMsg+"\n");
+        log.addText("\n\n\n\n\n");
         return 1;
     }
 
